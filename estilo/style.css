@@ -39,6 +39,7 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     background-image: linear-gradient(50deg, #2220DB, #100E8F);
     width: 80%;
     height: 80vh;
