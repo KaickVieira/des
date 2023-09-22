@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/media-query.css">
+</head>
+<body>
+ <div class="container">
+   
+    <div class="form-image">
+        <img src="imagens/foto2.jpg" alt="">
+    </div>
+
+    <div class="form">
+        <form action="#" method="post">
+           
+            <div class="form-header">
+                <div class="title"></div>
+                <h1>Login</h1>
+                <p>Faça login para acessar sua conta</p>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="e-mail">E-mail:</label>
+                    <br>
+                    <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail" autocomplete="email"  required>
+                </div>
+                <div class="input-box">
+                    <label for="senha">Senha:</label>
+                    <br>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua Senha"  minlength="8" maxlength="32" autocomplete="current-password" required>
+                </div>
+            </div>
+            <a href="#" id="esq_senha">Esqueci minha senha</a>
+            <br>
+            <button type="submit">Login</button>
+            <br>
+            <a href="#" id="cadastro">Cadastre-se</a>
+        </form>
+    </div>
+<br>
+ </div>
+<br>
+
+</body>
+</html>
