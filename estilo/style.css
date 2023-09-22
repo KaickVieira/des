@@ -35,6 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
@@ -52,10 +53,17 @@ body {
 
 .form-image {
     display: flex;
-    width: 45%;
+    width: 50%;
     height: 100%;
-    box-sizing: border-box;
+    
+    
 }
+
+
+.form-image > img {
+    width: 35vw;
+}
+
 
 .form {
     color: #DB6A2C;
@@ -101,10 +109,12 @@ button {
     background-color: #2be900;
     color: #db692cad;
     font-size: 1.3em;
-    width: 10vw;
+   
+    width: 14vw;
     height: 6vh;
     margin-top: .6rem;
-    
+    margin-left: 5rem;
+
     border: none;
     border-radius: 5px 5px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.349);
@@ -120,5 +130,5 @@ button:hover{
     color: #DB6A2C;
     text-decoration: none;
     font-size: .8em;
-    margin-left: 11.6rem;
+    margin-left: 7.5rem;
 }

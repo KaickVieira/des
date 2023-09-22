@@ -30,6 +30,8 @@
 }
 
 
+
+
 @media screen and (min-width: 768px) and (max-width: 992px){
     
     .form-image {
@@ -76,6 +78,7 @@
         width: 30vw;
     }
 
+ 
     button {
         width: 60%;
         margin-left: 2.4rem;
@@ -98,10 +101,9 @@
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        margin-left: -13.9rem;
+       
+        margin-left: -11rem;
+        
     }
 
     #email, #senha {
@@ -110,12 +112,12 @@
 
     button {
         width: 60%;
-        margin-left: .4rem;
+        margin-left: 2.5rem;
     }
 
     #cadastro{
         margin-top: -1rem;
-        margin-left: 1rem;
+        margin-left: 6.4rem;
     }
 }
 
@@ -125,30 +127,32 @@
         display: none;
     }
 
+    .container {
+        width: 98%;
+    }
     form {
         
-        width: 50vw;
+        width: 55vw;
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    
 
-        margin-left: -13.9rem;
+        margin-left: -10rem;
     }
 
     #email, #senha {
-        width: 41vw;
+        width: 70vw;
     }
 
     button {
-        width: 60%;
-        margin-left: .4rem;
+        width: 130%;
+        margin-left: 1.5rem;
     }
 
     #cadastro{
         margin-top: -1rem;
-        margin-left: 1rem;
+        margin-left: 5.5rem;
     }
 }
 
@@ -159,29 +163,28 @@
         display: none;
     }
 
-    form {
-        
-        width: 50vw;
-        
+    .container {
+        width: 97vw;
+    }
+
+    form {    
+        width: 50vw;  
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        margin-left: -13.9rem;
+        margin-left: -11rem;
     }
 
     #email, #senha {
-        width: 50vw;
+        width: 80vw;
     }
 
     button {
-        width: 60%;
-        margin-left: .4rem;
+        width: 120%;
+        margin-left: 2.5rem;
     }
 
     #cadastro{
         margin-top: -1rem;
-        margin-left: 1rem;
+        margin-left: 5.9rem;
     }
 }
